@@ -1,0 +1,20 @@
+{
+  "name": "mightyjaxx-assessment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:ui": "npx playwright test tests/ui",
+    "test:ui-debug": "npx playwright test tests/ui --debug",
+    "test:api": "npx playwright test tests/api",
+    "test:headed": "npx playwright test --headed",
+    "playwright:report": "npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "tuanna0308",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.47.2",
+    "@types/node": "^22.7.4"
+  }
+}
